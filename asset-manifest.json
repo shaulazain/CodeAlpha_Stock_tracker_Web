@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/CodeAlpha_Stock_tracker_Web/static/css/main.30618850.css",
+    "main.js": "/CodeAlpha_Stock_tracker_Web/static/js/main.5cbfd8e2.js",
+    "static/media/iphone.png": "/CodeAlpha_Stock_tracker_Web/static/media/iphone.080029ada53f0cd57453.png",
+    "static/media/gradient.png": "/CodeAlpha_Stock_tracker_Web/static/media/gradient.12a666ed10b3b442b534.png",
+    "index.html": "/CodeAlpha_Stock_tracker_Web/index.html",
+    "main.30618850.css.map": "/CodeAlpha_Stock_tracker_Web/static/css/main.30618850.css.map",
+    "main.5cbfd8e2.js.map": "/CodeAlpha_Stock_tracker_Web/static/js/main.5cbfd8e2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.30618850.css",
+    "static/js/main.5cbfd8e2.js"
+  ]
+}
