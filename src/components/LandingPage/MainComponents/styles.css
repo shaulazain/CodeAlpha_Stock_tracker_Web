@@ -1,0 +1,111 @@
+.flex-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: .5em 3rem;
+}
+.track-crypto-heading,.real-time-heading{
+    margin: 0;
+    font-size: 7rem;
+}
+.track-crypto-heading{
+    color: white;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: white;
+}
+.track-crypto-heading:hover{
+    color: #111;
+    -webkit-text-stroke-color: white;
+    transition: all .5s ;
+
+}
+.real-time-heading{
+    color: #3a80e9;
+}
+.info-text{
+    font-size: 1.5rem;
+    color: gray;
+}
+.btn-flex{
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 1.5rem;
+}
+.phone-container{
+    width: 50%;
+    position: relative;
+    padding: 1rem;
+}
+.iphone{
+    position: absolute;
+    z-index: 100;
+    min-width: 300px;
+    width: 50%;
+    right: 0;
+}
+.gradient{
+    position: absolute;
+    min-width: 250px;
+    width: 40%;
+    top: 8rem;
+    right: 0;
+}
+@media only screen and (max-width: 1200px) {
+    .track-crypto-heading,.real-time-heading {
+        font-size: 5rem;
+      }
+}
+@media only screen and (max-width: 1050px) {
+    .track-crypto-heading,.real-time-heading {
+      font-size: 4rem;
+    }
+    .gradient {
+      top: 6rem;
+      min-width: 200px;
+    }
+    .iphone {
+      min-width: 250px;
+      width: 50%;
+    }
+  }
+
+  @media only screen and (max-width: 800px) {
+    
+    .flex-info {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .phone-container{
+        display: block;
+        margin: auto;
+        margin-top: 3rem;
+    }
+    .left-component{
+        width: 100%;
+    }
+    .track-crypto-heading,.real-time-heading{
+        font-size: 2rem;
+        text-align: center;
+    }
+    .track-crypto-heading{
+        -webkit-text-stroke-width: 1px;
+
+    }
+    .iphone{
+        left: -2rem;
+    }
+    .gradient{
+        left: 15%;
+    }
+    .info-text{
+        text-align: center;
+    }
+    .btn-flex{
+        justify-content: center;
+    }
+  }
+ 
+  

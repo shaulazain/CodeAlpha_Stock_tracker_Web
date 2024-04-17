@@ -1,0 +1,29 @@
+.btn{
+    background-color:#3a80e9;
+    color: white;
+    padding: .5rem 1.5rem;
+    min-width: 100px;
+    border-radius: 3rem;
+    text-align: center;
+    cursor: pointer;
+
+}
+.btn:hover{
+    box-shadow: 5px 5px 10px rgba(58, 128, 233, 0.3);
+    transition: all .3s;
+}
+
+.outline-btn{
+    background-color:#111;
+    color: white;
+    padding: .5rem 1.5rem;
+    border: 2px solid #3a80e9;
+    min-width: 100px;
+    border-radius: 3rem;
+    text-align: center;
+    cursor: pointer;
+}
+.outline-btn:hover{
+    background-color: #3a80e9;
+    transition: all .3s;
+}
